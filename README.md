@@ -2,6 +2,13 @@
 
 MCP server for Gemini native image generation (Nano Banana). Part of the [KeepOnFirst Agentic Workflow](https://github.com/keeponfirst/keeponfirst-agentic-workflow-starter).
 
+English | [繁體中文](README_zh-TW.md)
+
+## ⚠️ Important: Billing Required
+
+**Note: The Gemini API Free Tier does NOT support image generation models.**
+To use this MCP server, you must provide an API key from a Google Cloud project with billing enabled.
+
 ## Features
 
 - **Generate images** using Gemini 2.5 Flash Image or Gemini 3 Pro Image
@@ -45,7 +52,7 @@ Then configure absolute path in your MCP config (see Configuration section).
 
 1. Go to [Google AI Studio](https://aistudio.google.com/apikey)
 2. Create an API key
-3. Note: Image generation costs ~$0.039/image (Flash) or ~$0.134/image (Pro 2K)
+3. **IMPORTANT**: Ensure your project has billing enabled. These models are paid-only.
 
 ### 2. Add to MCP Config
 
