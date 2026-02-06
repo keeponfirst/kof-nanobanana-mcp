@@ -12,7 +12,7 @@ import {
     SUPPORTED_ASPECT_RATIOS,
     DEFAULT_MODEL,
     DEFAULT_ASPECT_RATIO
-} from './types.js';
+} from '../types.js';
 
 /**
  * Parse a prompt markdown file with optional YAML frontmatter

@@ -5,7 +5,7 @@
 import { GoogleGenAI } from '@google/genai';
 import * as fs from 'node:fs';
 import * as path from 'node:path';
-import { GenerationResult, DEFAULT_MODEL } from './types.js';
+import { GenerationResult, DEFAULT_MODEL } from '../types.js';
 
 let client: GoogleGenAI | null = null;
 

@@ -41,6 +41,7 @@ export interface QueueProcessResult {
         validation_errors?: string[];
         error?: string;
     }>;
+    [key: string]: unknown;
 }
 
 export interface QueueListItem {
@@ -62,6 +63,7 @@ export interface QueueListResult {
     invalid_count: number;
     conflict_count: number;
     prompts: QueueListItem[];
+    [key: string]: unknown;
 }
 
 export const SUPPORTED_MODELS = [
