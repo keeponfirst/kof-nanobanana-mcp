@@ -1,0 +1,48 @@
+{
+    "name": "@keeponfirst/kof-nanobanana-mcp",
+    "version": "1.0.0",
+    "description": "MCP server for Gemini native image generation (Nano Banana) - Part of KeepOnFirst Agentic Workflow",
+    "type": "module",
+    "main": "dist/index.js",
+    "bin": {
+        "kof-nanobanana-mcp": "dist/index.js"
+    },
+    "scripts": {
+        "start": "node dist/index.js",
+        "dev": "tsx watch src/index.ts",
+        "build": "tsc",
+        "clean": "rm -rf dist",
+        "prepublishOnly": "npm run build"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "files": [
+        "dist",
+        "README.md",
+        "examples"
+    ],
+    "engines": {
+        "node": ">=18"
+    },
+    "keywords": [
+        "mcp",
+        "gemini",
+        "nano-banana",
+        "image-generation",
+        "ai"
+    ],
+    "author": "KeepOnFirst",
+    "license": "MIT",
+    "dependencies": {
+        "@google/genai": "^1.0.1",
+        "@modelcontextprotocol/sdk": "^1.6.1",
+        "gray-matter": "^4.0.3",
+        "zod": "^3.23.8"
+    },
+    "devDependencies": {
+        "@types/node": "^22.10.0",
+        "tsx": "^4.19.2",
+        "typescript": "^5.7.2"
+    }
+}
