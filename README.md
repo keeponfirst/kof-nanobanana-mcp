@@ -16,6 +16,14 @@ To use this MCP server, you must provide an API key from a Google Cloud project 
 - **YAML frontmatter** support for prompt configuration
 - **Cross-IDE compatible** - works with any MCP-enabled client
 
+## ☕ Support this project
+
+If this project helps you, you can support development here:
+
+<a href="https://www.buymeacoffee.com/keeponfirst" target="_blank">
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="45" />
+</a>
+
 ## Installation
 
 ### Option 1: Use via npx (Recommended)

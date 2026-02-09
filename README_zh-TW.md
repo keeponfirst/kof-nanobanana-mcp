@@ -25,6 +25,14 @@ Gemini 原生圖片生成 MCP Server (Nano Banana)。[KeepOnFirst Agentic Workfl
 
 *價格以 Google 官方公告為準*
 
+## ☕ 支持這個專案
+
+如果這個專案對你有幫助，歡迎請我喝杯咖啡：
+
+<a href="https://www.buymeacoffee.com/keeponfirst" target="_blank">
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="45" />
+</a>
+
 ## 安裝方式
 
 ### 方法 A：透過 npx 使用 (推薦)
